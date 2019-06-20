@@ -22,6 +22,9 @@ i {
 }
 
 .gallery-item {
-    border: 1px solid black;
-    min-height: 200px;
+    min-height: 100px;
+}
+
+.gallery-img {
+    width: 100%;
 }
