@@ -1,0 +1,8 @@
+img {
+    width: 100%;
+}
+
+.about-img {
+    min-height: 270px;
+    max-height: 360px;
+}
