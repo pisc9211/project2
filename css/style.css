@@ -2,7 +2,15 @@ img {
     width: 100%;
 }
 
+.section {
+    margin: 15px 0 30px 0;
+}
+
 .about-img {
     min-height: 270px;
     max-height: 360px;
+}
+
+i {
+    font-size: 54px;
 }
