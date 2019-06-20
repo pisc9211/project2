@@ -14,3 +14,14 @@ img {
 i {
     font-size: 54px;
 }
+
+.divider {
+    width: 50px;
+    border-bottom: 4px solid orange;
+    margin: 10px auto;
+}
+
+.gallery-item {
+    border: 1px solid black;
+    min-height: 200px;
+}
