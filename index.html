@@ -44,24 +44,29 @@
           <li class="nav-item">
             <a href="#" class="nav-link active">Section</a>
           </li>
-          <li class="nav-item"><a href="#" class="nav-link">Section</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Section</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Section</a></li>
+          <li class="nav-item"><a href="#about-us-section" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="#features-section" class="nav-link">Features</a></li>
+          <li class="nav-item"><a href="#gallery-section" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="#meet-the-team-section" class="nav-link">Team</a></li>
+          <li class="nav-item"><a href="#review-section" class="nav-link">Reviews</a></li>
+          <li class="nav-item"><a href="#contact-section" class="nav-link">Contact Us</a></li>
         </ul>
       </div>
     </nav>
 
     <!-- Carousel -->
-    <section id="carousel-section"></section>
+    <!-- <section id="carousel-section"></section> -->
 
     <!-- About Us Section -->
     <section id="about-us-section" class="section">
-      <div class="container py-3">
-        <div class="row">
+      <div class="container">
+        <div class="row py-3">
           <div class="col-md-12 text-center">
-            <h2 class="py-3">About Us</h2>
+            <h2 class="py-md-3">About Us</h2>
             <div class="divider"></div>
           </div>
+        </div>
+        <div class="row">
           <div class="col-md-6 pr-md-0">
             <img class="about-img" src="css/img/archery.jpg" alt="" />
           </div>
@@ -253,7 +258,7 @@
     </section>
 
     <!-- Meet The Team -->
-    <section id="meet-the-team">
+    <section id="meet-the-team-section">
       <div class="container py-3">
         <div class="row py-3">
           <div class="col-md-12 text-center">
@@ -264,7 +269,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="person text-center">
-              <div class="person-img-container">
+              <div class="person-img-container py-4">
                 <img
                   class="rounded-circle"
                   src="https://placeimg.com/150/150/people"
@@ -282,7 +287,7 @@
           </div>
           <div class="col-md-4">
             <div class="person text-center">
-              <div class="person-img-container">
+              <div class="person-img-container py-4">
                 <img
                   class="rounded-circle"
                   src="https://placeimg.com/150/150/people"
@@ -300,7 +305,7 @@
           </div>
           <div class="col-md-4">
             <div class="person text-center">
-              <div class="person-img-container">
+              <div class="person-img-container py-4">
                 <img
                   class="rounded-circle"
                   src="https://placeimg.com/150/150/people"
@@ -320,17 +325,90 @@
       </div>
     </section>
     <!-- Reviews -->
-
+    <section id="review-section">
+      <div class="container py-3">
+        <div class="row py-3">
+          <div class="col-md-12 text-center">
+            <h2 class="py-md-3">Hear from our customers!</h2>
+            <div class="divider"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 col-md-3">
+            <blockquote>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nemo provident voluptatibus quae minima repellat fuga! Fuga qui dolores dolor, quia quidem delectus voluptatum.
+              <cite><img src="https://placeimg.com/150/150/people" alt="customer">Larry Brown</cite>
+            </blockquote>
+          </div>
+          <div class="col-6 col-md-3">
+            <blockquote>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nemo provident voluptatibus quae minima repellat fuga! Fuga qui dolores dolor, quia quidem delectus voluptatum.
+              <cite><img src="https://placeimg.com/150/150/people" alt="customer">Larry Brown</cite>
+            </blockquote>
+          </div>
+          <div class="col-6 col-md-3">
+            <blockquote>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nemo provident voluptatibus quae minima repellat fuga! Fuga qui dolores dolor, quia quidem delectus voluptatum.
+              <cite><img src="https://placeimg.com/150/150/people" alt="customer">Larry Brown</cite>
+            </blockquote>
+          </div>
+          <div class="col-6 col-md-3">
+            <blockquote>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus nemo provident voluptatibus quae minima repellat fuga! Fuga qui dolores dolor, quia quidem delectus voluptatum.
+              <cite><img src="https://placeimg.com/150/150/people" alt="customer">Larry Brown</cite>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Contact Us -->
-
+    <section id="contact-section">
+      <div class="container py-3">
+        <div class="row py-3">
+          <div class="col-md-12 text-center">
+            <h2 class="py-md-3">WE'RE HAPPY TO HEAR FROM YOU</h2>
+            <div class="divider"></div>
+          </div>
+        </div>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="firstname">First Name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="First Name">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="lastName">Last Name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="Email">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck">
+              <label class="form-check-label" for="gridCheck">
+                Newsletter
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+    </section>
     <!-- Footer -->
     <footer>
-      <!-- Copyright &copy; 2019 Paul Chung
-            <div>
-                <i class="fab fa-linkedin"></i>
-                <i class="fab fa-github"></i>
-                <i class="fab fa-facebook"></i>
-            </div> -->
+      <div>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-snapchat"></i>
+      </div>
+      Copyright &copy; 2019 Paul Chung
     </footer>
 
     <!-- Optional JavaScript -->
@@ -350,6 +428,7 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Personal JS -->
     <script src="js/main.js"></script>
   </body>
