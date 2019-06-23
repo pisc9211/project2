@@ -28,3 +28,8 @@ i {
 .gallery-img {
     width: 100%;
 }
+
+.person-img-container img{
+    width: 50%;
+    margin: 0 auto;
+}
