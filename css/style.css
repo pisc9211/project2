@@ -13,6 +13,7 @@ header {
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
 img {
@@ -32,8 +33,32 @@ section {
     max-height: 360px;
 }
 
-i {
-    font-size: 54px;
+.number {
+    height: 50px;
+    width: 50px;
+    border: 2px solid orange;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    color: orange;
+    margin-bottom: 10px;
+}
+
+.dollars {
+    font-size: 50px;
+}
+
+.perks {
+    list-style: none;
+}
+
+.card-image i {
+    font-size: 50px;
+    color: orange;
+}
+
+.card {
+    border: none;
 }
 
 .divider {
@@ -96,3 +121,79 @@ i {
     font-size: 24px;
     margin: 10px;
 }
+
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+  }
+  
+  .footer-nav {
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  .social-links {
+    list-style: none;
+  }
+  
+  .footer-nav li,
+  .social-links li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .footer-nav li:last-child,
+  .social-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-nav li a:link,
+  .footer-nav li a:visited,
+  .social-links li a:link,
+  .social-links li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    transition: color 0.2s;
+  }
+  
+  .footer-nav li a:hover,
+  .footer-nav li a:active {
+    color: #ddd;
+  }
+  
+  .social-links li a:link,
+  .social-links li a:visited {
+    font-size: 160%;
+  }
+  
+  .fa-facebook-square,
+  .fa-twitter-square,
+  .fa-google-plus-square,
+  .fa-instagram {
+    transition: color 0.2s;
+  }
+  
+  .fa-facebook-square:hover {
+    color: #3b5998;
+  }
+  
+  .fa-twitter-square:hover {
+    color: #00aced;
+  }
+  
+  .fa-google-plus-square:hover {
+    color: #dd4b39;
+  }
+  
+  .fa-instagram:hover {
+    color: #517fa4;
+  }
+  
+  footer p {
+    color: #888;
+    text-align: center;
+    margin-top: 20px;
+  }
